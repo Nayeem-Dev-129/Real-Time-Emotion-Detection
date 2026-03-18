@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-model = load_model("emotion_detect.keras")
+model = load_model("emotion_model.keras")
 
 emotion_labels = {
     0:"Angry",1:"Disgust",2:"Fear",
