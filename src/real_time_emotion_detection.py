@@ -23,8 +23,7 @@ while True:
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray,1.3,5)
-   # predictions = []
-
+   
     for (x,y,w,h) in faces:
 
         face = frame[y:y+h, x:x+w]
@@ -33,12 +32,7 @@ while True:
         face = np.reshape(face,(1,96,96,3))
 
         pred = model.predict(face)
-        #predictions.append(pred)
-
-        #if len(predictions) > 5:
-           # predictions.pop(0)
-
-        #avg_pred = np.mean(predictions, axis=0)
+        
         label = emotion_labels[np.argmax(pred)]
        
 
