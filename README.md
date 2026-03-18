@@ -37,6 +37,15 @@ Emotion-Detection/
 
 ---
 
+## Model File
+
+The trained model (`emotion_model.keras`) is stored using Git LFS due to its large size.
+
+To download:
+Click on the file → Click "View Raw"
+
+---
+
 ##  Technologies Used
 
 * Python
