@@ -27,14 +27,22 @@ The system can recognize multiple emotions such as:
 
 ##  Project Structure
 
-Emotion-Detection/
+```
+Real-Time-Emotion-Detection/
 │
-├── emotion_model.keras              # Trained deep learning model
-├── real_time_emotion_detection.py  # Main script for detection
-├── haarcascade_frontalface_default.xml  # Face detection model
-├── requirements.txt                # Dependencies
-└── README.md                       # Project documentation
-
+├── assets/
+│   └── haarcascade_frontalface_default.xml
+│
+├── models/
+│   └── emotion_model.keras
+│
+├── src/
+│   └── real_time_emotion_detection.py
+│
+├── .gitattributes
+├── README.md
+└── requirements.txt
+```
 ---
 
 ## Model File
