@@ -74,8 +74,11 @@ Click on the file → Click "View Raw"
 ##  Features
 
 ✔ Real-time emotion detection using webcam
+
 ✔ Face detection using Haarcascade
+
 ✔ Deep learning-based classification
+
 ✔ Lightweight and fast execution
 
 ---
