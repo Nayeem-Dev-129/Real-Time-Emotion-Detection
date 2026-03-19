@@ -35,6 +35,12 @@ Real-Time-Emotion-Detection/
 │
 ├── models/
 │   └── emotion_model.keras
+|
+├── outputs/
+│   ├── output1.png
+│   ├── output2.png
+│   ├── output3.png
+│   ├── output4.png
 │
 ├── src/
 │   └── real_time_emotion_detection.py
@@ -51,6 +57,22 @@ The trained model (`emotion_model.keras`) is stored using Git LFS due to its lar
 
 To download:
 Click on the file → Click "View Raw"
+
+---
+
+## Output Screenshots
+
+### Output 1
+![Output 1](outputs/output1.png)
+
+### Output 2
+![Output 2](outputs/output2.png)
+
+### Output 3
+![Output 3](outputs/output3.png)
+
+### Output 4
+![Output 4](outputs/output4.png)
 
 ---
 
