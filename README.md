@@ -93,6 +93,32 @@ Click on the file → Click "View Raw"
 
 ---
 
+## ⚙️ Installation
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Nayeem-Dev-129/Real-Time-Emotion-Detection.git
+
+cd Real-Time-Emotion-Detection
+```
+
+2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run src/real_time_emotion_detection.py
+```
+
+---
+
 ##  Features
 
 ✔ Real-time emotion detection using webcam
